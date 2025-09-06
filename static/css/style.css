@@ -1,0 +1,21 @@
+/*.gradient-text {*/
+/*  background: linear-gradient(90deg, #1e3c72, #2a5298); !* 深蓝到亮蓝 *!*/
+/*  -webkit-background-clip: text;*/
+/*  -webkit-text-fill-color: transparent;*/
+/*  font-weight: 900;  !* 加粗 *!*/
+/*}*/
+
+.gradient-text {
+  background: linear-gradient(90deg, #1976d2, #42a5f5, #64b5f6); /* 更亮的蓝色渐变 */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;      /* 加粗 */
+  font-size: 3rem;       /* 调大字号 (≈48px，默认1rem≈16px) */
+  line-height: 1.2;      /* 调整行距，让文字更紧凑 */
+}
+
+.highlight-title {
+  font-weight: 900;   /* 超加粗 */
+  font-size: 1.2em;   /* 放大，基于 h2 的默认字号 */
+  color: #000;        /* 可选，保持黑色 */
+}

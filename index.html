@@ -177,6 +177,10 @@
     ]
   }
   </script>
+
+  <!-- 我加的 -->
+  <link rel="stylesheet" href="static/css/style.css">
+
 </head>
 <body>
 
@@ -186,53 +190,53 @@
     <i class="fas fa-chevron-up"></i>
   </button>
 
-  <!-- More Works Dropdown -->
-  <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
-      <i class="fas fa-flask"></i>
-      More Works
-      <i class="fas fa-chevron-down dropdown-arrow"></i>
-    </button>
-    <div class="more-works-dropdown" id="moreWorksDropdown">
-      <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
-        <button class="close-btn" onclick="toggleMoreWorks()">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
-          <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    </div>
-  </div>
+<!--  &lt;!&ndash; More Works Dropdown &ndash;&gt;-->
+<!--  <div class="more-works-container">-->
+<!--    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">-->
+<!--      <i class="fas fa-flask"></i>-->
+<!--      More Works-->
+<!--      <i class="fas fa-chevron-down dropdown-arrow"></i>-->
+<!--    </button>-->
+<!--    <div class="more-works-dropdown" id="moreWorksDropdown">-->
+<!--      <div class="dropdown-header">-->
+<!--        <h4>More Works from Our Lab</h4>-->
+<!--        <button class="close-btn" onclick="toggleMoreWorks()">-->
+<!--          <i class="fas fa-times"></i>-->
+<!--        </button>-->
+<!--      </div>-->
+<!--      <div class="works-list">-->
+<!--        &lt;!&ndash; TODO: Replace with your lab's related works &ndash;&gt;-->
+<!--        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">-->
+<!--          <div class="work-info">-->
+<!--            &lt;!&ndash; TODO: Replace with actual paper title &ndash;&gt;-->
+<!--            <h5>Paper Title 1</h5>-->
+<!--            &lt;!&ndash; TODO: Replace with brief description &ndash;&gt;-->
+<!--            <p>Brief description of the work and its main contribution.</p>-->
+<!--            &lt;!&ndash; TODO: Replace with venue and year &ndash;&gt;-->
+<!--            <span class="work-venue">Conference/Journal 2024</span>-->
+<!--          </div>-->
+<!--          <i class="fas fa-external-link-alt"></i>-->
+<!--        </a>-->
+<!--        &lt;!&ndash; TODO: Add more related works or remove extra items &ndash;&gt;-->
+<!--        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">-->
+<!--          <div class="work-info">-->
+<!--            <h5>Paper Title 2</h5>-->
+<!--            <p>Brief description of the work and its main contribution.</p>-->
+<!--            <span class="work-venue">Conference/Journal 2023</span>-->
+<!--          </div>-->
+<!--          <i class="fas fa-external-link-alt"></i>-->
+<!--        </a>-->
+<!--        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">-->
+<!--          <div class="work-info">-->
+<!--            <h5>Paper Title 3</h5>-->
+<!--            <p>Brief description of the work and its main contribution.</p>-->
+<!--            <span class="work-venue">Conference/Journal 2023</span>-->
+<!--          </div>-->
+<!--          <i class="fas fa-external-link-alt"></i>-->
+<!--        </a>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
 
   <main id="main-content">
   <section class="hero">
@@ -241,21 +245,25 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+<!--            <h1 class="title is-2 publication-title">PCASim: Promptable Closed-loop Adversarial Simulation for Urban-->
+<!--Traffic Environment</h1>-->
+            <h1 class="title is-2 publication-title"> <span class="gradient-text">PCASim:</span> Promptable Closed-loop Adversarial Simulation for Urban Traffic Environment
+            </h1>
+
             <div class="is-size-5 publication-authors">
               <!-- TODO: Replace with your paper authors and their personal links -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+<!--                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>-->
+<!--                <span class="author-block">-->
+<!--                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>-->
+<!--                  <span class="author-block">-->
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Anonymous</a>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
                     <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
+                    <span class="author-block">Institution Name<br>ICRA 2026</span>
                     <!-- TODO: Remove this line if no equal contribution -->
                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
                   </div>
@@ -319,13 +327,15 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
+<!--      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">-->
+<!--        &lt;!&ndash; TODO: Add your video file path here &ndash;&gt;-->
+<!--        <source src="static/videos/banner_video.mp4" type="video/mp4">-->
+<!--      </video>-->
+      <img src="static/images/framework.png" alt="Second research result visualization" loading="lazy"/>
+
       <!-- TODO: Replace with your video description -->
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        The overall framework of the closed-loop adversarial simulation
       </h2>
     </div>
   </div>
@@ -341,7 +351,7 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+          Real-world autonomous driving, particularly in urban environments with numerous corner cases, requires rigorous testing to ensure product safety and robustness. However, there have been very few studies to explore integrating adversarial scenario generation with scenario validation in closed-loop testing to assess scenario plausibility. To address this challenge, an adversarial behavior knowledge repository is constructed by applying rule-based filtering to an open-source dataset, combined with knowledge retrieval modules tailored for simulation environments. A large language model (LLM) is employed to integrate knowledge-, data-, and adversarial-driven approaches, generating safety-critical traffic scenarios customized to user needs. Additionally, a reinforcement learning model is trained to evaluate the generated scenarios, effectively leveraging the advanced cognitive and reasoning capabilities of LLM, thereby achieving greater scenario diversity beyond existing datasets while maintaining realism. Experimental results demonstrate that the proposed framework can improve the accuracy of domain-specific language generation  by 12%, with a 30% conversion success rate for newly generated scenarios.
           </p>
         </div>
       </div>
@@ -361,28 +371,31 @@
         <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
         <!-- TODO: Replace with description of this result -->
         <h2 class="subtitle has-text-centered">
-          First image description.
+          The framework of newly generated adversarial scenarios.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
         <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-          Second image description.
+          <span class="highlight-title">Comparison</span> of DSL scenario generation scores across different LLMs and <span class="highlight-title">ablation</span> study of core components in the DSL generation pipeline.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
         <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
+        <h2 class="subtitle has-text-centered"> <span class="highlight-title">Generating Scenarios and Validation.</span>
+          (a) (b) are the braking scenarios, (c) (d) are the going straight scenarios,
+          the orange indicates adversarial vehicle, the red indicates ego vehicle without training
+          and the green ego vehicle has been strengthened by the reinforcement learning.
+        </h2>
+
      </div>
      <div class="item">
       <!-- Your image here -->
       <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
       <h2 class="subtitle has-text-centered">
-        Fourth image description.
+        Comparison of the greatest heading trajectories
       </h2>
     </div>
   </div>
@@ -415,58 +428,56 @@
 <!-- End youtube video -->
 
 
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
+<!--&lt;!&ndash; Video carousel &ndash;&gt;-->
+<!--<section class="hero is-small">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container">-->
+<!--      <h2 class="title is-3">Another Carousel</h2>-->
+<!--      <div id="results-carousel" class="carousel results-carousel">-->
+<!--        <div class="item item-video1">-->
+<!--          &lt;!&ndash; TODO: Add poster image for better preview &ndash;&gt;-->
+<!--          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">-->
+<!--            &lt;!&ndash; Your video file here &ndash;&gt;-->
+<!--            <source src="static/videos/carousel1.mp4" type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-video2">-->
+<!--          &lt;!&ndash; TODO: Add poster image for better preview &ndash;&gt;-->
+<!--          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">-->
+<!--            &lt;!&ndash; Your video file here &ndash;&gt;-->
+<!--            <source src="static/videos/carousel2.mp4" type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-video3">-->
+<!--          &lt;!&ndash; TODO: Add poster image for better preview &ndash;&gt;-->
+<!--          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">-->
+<!--            &lt;!&ndash; Your video file here &ndash;&gt;-->
+<!--            <source src="static/videos/carousel3.mp4" type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
+<!--&lt;!&ndash; End video carousel &ndash;&gt;-->
 
 
 
 
+<!--&lt;!&ndash; Paper poster &ndash;&gt;-->
+<!--<section class="hero is-small is-light">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container">-->
+<!--      <h2 class="title">Poster</h2>-->
 
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
+<!--      &lt;!&ndash; TODO: Replace with your poster PDF &ndash;&gt;-->
+<!--      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">-->
+<!--          </iframe>-->
+<!--        -->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </section>-->
+<!--&lt;!&ndash;End paper poster &ndash;&gt;-->
 
 
 
@@ -482,9 +493,9 @@
       </div>
       <pre id="bibtex-code"><code>@article{YourPaperKey2024,
   title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
+  author={Anonymous},
   journal={Conference/Journal Name},
-  year={2024},
+  year={2025},
   url={https://your-domain.com/your-project-page}
 }</code></pre>
     </div>
@@ -500,7 +511,7 @@
 
           <p>
             This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
 
